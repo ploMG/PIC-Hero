@@ -2,7 +2,7 @@
 
 ##  General Info
 
-This project allows the user to select songs and play them off a PIC16F1829. A selection screen is displayed by a 2x16 LCD through I2C that lets users choose which song they would like to play using an analog stick component. After a song is selected, the user will be able to play the notes of the song using the touch sensors on the PIC board. The notes of the song will be highlighted on an 8x8 dot matrix through SPI, where the lit LEDs on the dot matrix signify when to press certain notes. Simultaneously, songs are loaded into a DFPlayer Mini connected to an Arduino Nano 33 BLE Sense that communicates with the PIC microcontroller through UART, which will play the user-selected audio on a connected speaker component.
+This project allows the user to select songs and play them off a PIC16F1829. A selection screen is displayed by a 2x16 LCD through I2C that lets users choose which song they would like to play using an analog stick component. After a song is selected, the user will be able to play the notes of the song using the touch sensors on the PIC board. The notes of the song will be highlighted on an 8x8 dot matrix through SPI, where the lit LEDs on the dot matrix signify when to press certain notes. Simultaneously, songs are loaded into a DFPlayer Mini connected to an Arduino Nano 33 BLE Sense that communicates with the PIC microcontroller through UART, which will play the user-selected audio on a connected speaker component. When the song is over, the LCD will display the user's score.
 
 ## Setup
 
